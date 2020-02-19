@@ -1,0 +1,82 @@
+/* Reset styles */
+p, h1, h2, h3, h4, nav, header, body, img,
+a, footer, address {
+  /* border: 1px solid black;d */
+}
+
+.container {
+  /* width: 800px; */
+  color:lightslategrey;
+  margin:0 auto;
+}
+
+
+/* Header content styles */
+header {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+header h1 {
+  font-family: 'Lacquer', sans-serif;
+}
+.img-container {
+  width: 105px;
+  height: 110px;
+}
+/* resize images */
+.container img {
+  width: 100%;
+  height: 100%;
+}
+.about-img-container {
+  width:45%;
+  height:25rem;
+  border-radius:5rem;
+} 
+
+
+/*
+ * **************
+ * General Styles 
+ * **************
+ */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width:100%;
+  background-color:lightslategrey;
+
+}
+nav a {
+  text-decoration:none;
+  color:white;
+  text-transform:capitalize;
+  padding:0.5%;
+}
+nav a:hover {
+  background-color:black;
+  color:navajowhite;
+}
+.about {
+  max-width:100%;
+  display:flex;
+  margin:5% 0;
+  padding:2%;
+  justify-content:space-around;
+}
+.about-us {
+  width:50%;
+  background-color:black;
+  color:navajowhite;
+  text-align:center;
+  border-radius:5rem;
+  padding:5% 0;
+}
+.about-us p {
+  /* width:25%; */
+  padding:5% 25%;
+  text-align: center;
+}
